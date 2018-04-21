@@ -2,6 +2,9 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
+
+
 def roll
-  # code goes here
+  diceRoll = Random.new
+  diceRoll.rand(6)
 end
