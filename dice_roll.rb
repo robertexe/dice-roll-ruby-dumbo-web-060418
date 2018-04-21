@@ -5,13 +5,14 @@
 
 
 
-def roll
-  diceRoll = Random.new
-  diceRoll.rand(1..6)
-end
-
-
-# def roll(arr)
+# def roll
 #   diceRoll = Random.new
-#   diceRoll.rand(arr[0]..arr[arr.length-1])
+#   diceRoll.rand(1..6)
 # end
+
+
+def roll
+  arr = [1,2,3,5,6]
+  diceRoll = Random.new
+  diceRoll.rand(arr[0]..arr[arr.length-1])
+end
