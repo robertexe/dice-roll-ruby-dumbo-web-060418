@@ -4,7 +4,16 @@
 
 
 
+=begin
+
 def roll
   diceRoll = Random.new
   diceRoll.rand(1..6)
+end
+
+=end
+
+def roll(arr)
+  diceRoll = Random.new
+  diceRoll.rand(arr[0]..arr[arr.length-1])
 end
