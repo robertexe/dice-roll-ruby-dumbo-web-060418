@@ -6,5 +6,5 @@
 
 def roll
   diceRoll = Random.new
-  diceRoll.rand(6)
+  diceRoll.rand(7)
 end
